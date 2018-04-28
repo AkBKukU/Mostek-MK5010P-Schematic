@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MK5010P
+D MK5010P
+K mostek,calculator
+$ENDCMP
+#
+#End Doc Library
