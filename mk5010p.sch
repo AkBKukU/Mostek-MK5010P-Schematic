@@ -1,1 +1,252 @@
 EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Mostek
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MK5010P U?
+U 1 1 5AE4AC1D
+P 7900 3100
+F 0 "U?" H 7400 4800 50  0000 C CNN
+F 1 "MK5010P" H 8300 4800 50  0000 C CNN
+F 2 "Housings_DIP:DIP-40_W15.24mm" H 7950 3200 50  0001 C CIN
+F 3 "" H 7900 3150 50  0001 C CNN
+	1    7900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5AE4AD44
+P 6250 1050
+F 0 "R?" V 6330 1050 50  0000 C CNN
+F 1 "110k" V 6250 1050 50  0000 C CNN
+F 2 "" V 6180 1050 50  0001 C CNN
+F 3 "" H 6250 1050 50  0001 C CNN
+	1    6250 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AE4B04A
+P 7750 5050
+F 0 "#PWR?" H 7750 4800 50  0001 C CNN
+F 1 "GND" H 7750 4900 50  0000 C CNN
+F 2 "" H 7750 5050 50  0001 C CNN
+F 3 "" H 7750 5050 50  0001 C CNN
+	1    7750 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 4900 7750 5050
+$Comp
+L GND #PWR?
+U 1 1 5AE4B240
+P 5950 3050
+F 0 "#PWR?" H 5950 2800 50  0001 C CNN
+F 1 "GND" H 5950 2900 50  0000 C CNN
+F 2 "" H 5950 3050 50  0001 C CNN
+F 3 "" H 5950 3050 50  0001 C CNN
+	1    5950 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 1150 5950 1650
+Wire Wire Line
+	5950 1650 5950 2100
+Wire Wire Line
+	5950 2100 5950 2600
+Wire Wire Line
+	5950 2600 5950 3050
+$Comp
+L C C?
+U 1 1 5AE4B578
+P 6250 1300
+F 0 "C?" H 6275 1400 50  0000 L CNN
+F 1 "10nF" H 6275 1200 50  0000 L CNN
+F 2 "" H 6288 1150 50  0001 C CNN
+F 3 "" H 6250 1300 50  0001 C CNN
+	1    6250 1300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6400 1050 6400 1200
+Wire Wire Line
+	6400 1200 6400 1300
+Wire Wire Line
+	6400 1200 6500 1200
+Wire Wire Line
+	6500 1200 6500 1750
+Wire Wire Line
+	6500 1750 7150 1750
+Connection ~ 6400 1200
+Wire Wire Line
+	6100 1050 6100 1150
+Wire Wire Line
+	6100 1150 6100 1300
+Wire Wire Line
+	6100 1150 5950 1150
+Connection ~ 6100 1150
+$Comp
+L R R?
+U 1 1 5AE4B9B7
+P 6250 1550
+F 0 "R?" V 6330 1550 50  0000 C CNN
+F 1 "110k" V 6250 1550 50  0000 C CNN
+F 2 "" V 6180 1550 50  0001 C CNN
+F 3 "" H 6250 1550 50  0001 C CNN
+	1    6250 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5AE4B9BD
+P 6250 1800
+F 0 "C?" H 6275 1900 50  0000 L CNN
+F 1 "10nF" H 6275 1700 50  0000 L CNN
+F 2 "" H 6288 1650 50  0001 C CNN
+F 3 "" H 6250 1800 50  0001 C CNN
+	1    6250 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6400 1550 6400 1700
+Wire Wire Line
+	6400 1700 6400 1800
+Wire Wire Line
+	6400 1700 6450 1700
+Wire Wire Line
+	6450 1700 6450 1850
+Wire Wire Line
+	6450 1850 7150 1850
+Connection ~ 6400 1700
+Wire Wire Line
+	6100 1550 6100 1650
+Wire Wire Line
+	6100 1650 6100 1800
+Wire Wire Line
+	5950 1650 6100 1650
+Connection ~ 5950 1650
+Connection ~ 6100 1650
+$Comp
+L R R?
+U 1 1 5AE4C25A
+P 6250 2000
+F 0 "R?" V 6330 2000 50  0000 C CNN
+F 1 "110k" V 6250 2000 50  0000 C CNN
+F 2 "" V 6180 2000 50  0001 C CNN
+F 3 "" H 6250 2000 50  0001 C CNN
+	1    6250 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5AE4C260
+P 6250 2250
+F 0 "C?" H 6275 2350 50  0000 L CNN
+F 1 "10nF" H 6275 2150 50  0000 L CNN
+F 2 "" H 6288 2100 50  0001 C CNN
+F 3 "" H 6250 2250 50  0001 C CNN
+	1    6250 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6400 2000 6400 2150
+Wire Wire Line
+	6400 2150 6400 2250
+Wire Wire Line
+	6400 2150 6450 2150
+Connection ~ 6400 2150
+Wire Wire Line
+	6100 2000 6100 2100
+Wire Wire Line
+	6100 2100 6100 2250
+Wire Wire Line
+	6100 2100 5950 2100
+Connection ~ 6100 2100
+Wire Wire Line
+	7150 1950 6450 1950
+Wire Wire Line
+	6450 1950 6450 2150
+Connection ~ 5950 2100
+$Comp
+L R R?
+U 1 1 5AE4C925
+P 6250 2500
+F 0 "R?" V 6330 2500 50  0000 C CNN
+F 1 "110k" V 6250 2500 50  0000 C CNN
+F 2 "" V 6180 2500 50  0001 C CNN
+F 3 "" H 6250 2500 50  0001 C CNN
+	1    6250 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5AE4C92B
+P 6250 2750
+F 0 "C?" H 6275 2850 50  0000 L CNN
+F 1 "10nF" H 6275 2650 50  0000 L CNN
+F 2 "" H 6288 2600 50  0001 C CNN
+F 3 "" H 6250 2750 50  0001 C CNN
+	1    6250 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6400 2500 6400 2650
+Wire Wire Line
+	6400 2650 6400 2750
+Wire Wire Line
+	6400 2650 6500 2650
+Connection ~ 6400 2650
+Wire Wire Line
+	6100 2500 6100 2600
+Wire Wire Line
+	6100 2600 6100 2750
+Connection ~ 6100 2600
+Wire Wire Line
+	6100 2600 5950 2600
+Connection ~ 5950 2600
+Wire Wire Line
+	6500 2650 6500 2050
+Wire Wire Line
+	6500 2050 7150 2050
+$EndSCHEMATC
